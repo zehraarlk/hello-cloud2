@@ -1,9 +1,3 @@
-from flask import Flask
-app = Flask(_name_)
-
-@app.route('/')
-def home():
-    return "Merhaba, Buluttan Selam!"
 from flask import Flask, render_template_string, request
 import os
 import psycopg2
